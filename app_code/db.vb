@@ -19,7 +19,7 @@ Public Class db
             Return True
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return False
         Finally
             cadenaConexion.Close()
@@ -55,7 +55,7 @@ Public Class db
             End If
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -75,11 +75,11 @@ Public Class db
             cadenaConexion.Close()
             Return True
         Catch ex As Exception
-            Dim objWriter As New System.IO.StreamWriter("C:\inetpub\vhosts\prosepago.com\httpdocs\admin\trans\" & Date.Now.ToString("ddMMyyyy HH-mm-ss-fff") & ".txt")
+            Dim objWriter As New System.IO.StreamWriter("C:\inetpub\vhosts\reehab.com\httpdocs\admin\trans\" & Date.Now.ToString("ddMMyyyy HH-mm-ss-fff") & ".txt")
             objWriter.Write(tabla & vbNewLine & sset & vbNewLine & wwhere)
             objWriter.Close()
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
         Finally
             cadenaConexion.Close()
         End Try
@@ -98,7 +98,7 @@ Public Class db
             Return True
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return False
         Finally
             cadenaConexion.Close()
@@ -128,7 +128,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -164,7 +164,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -191,7 +191,7 @@ Public Class db
             dt.Load(dr)
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
         Finally
             cadenaConexion.Close()
         End Try
@@ -216,7 +216,7 @@ Public Class db
             dt.Load(dr)
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
         Finally
             cadenaConexion.Close()
         End Try
@@ -243,7 +243,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return 0
         Finally
             cadenaConexion.Close()
@@ -273,7 +273,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -304,7 +304,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -338,7 +338,7 @@ Public Class db
             End If
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
@@ -517,7 +517,7 @@ Public Class db
             Return respuestaSQL
         Catch ex As Exception
             cadenaConexion.Close()
-            logErroresDB("Prosepago.com | " & cadenaSQL & " | " & ex.ToString)
+            logErroresDB("reehab.com | " & cadenaSQL & " | " & ex.ToString)
             Return ex.Message
         Finally
             cadenaConexion.Close()
