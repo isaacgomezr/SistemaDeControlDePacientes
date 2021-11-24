@@ -11,7 +11,6 @@ Sistema de control para pacientes de fisioterapia
 - [ ] Problema con resolución en botones al hacer scroll
 - [ ] Problema con Datatable en ciertas resoluciones
 
-[Demo Download](https://github.com/F0RIS/sweet-alert-dialog/releases/download/1.5.3/sample-v1.5.3.apk)
 
 ## ScreenShot
 ![image](https://github.com/isaacgomezr/SistemaDeControlDePacientes/blob/main/Dashboard.jpg)
