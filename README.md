@@ -14,7 +14,7 @@ Sistema de control para pacientes de fisioterapia
 [Demo Download](https://github.com/F0RIS/sweet-alert-dialog/releases/download/1.5.3/sample-v1.5.3.apk)
 
 ## ScreenShot
-![image](https://github.com/pedant/sweet-alert-dialog/raw/master/change_type.gif)
+![image](https://github.com/isaacgomezr/SistemaDeControlDePacientes/blob/main/Dashboard.jpg)
 
 ## Setup
 Siéntanse libres de utilizar el código conforme a su voluntad.
